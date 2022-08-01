@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    max-height: 100vh;
+    max-width: 100vw ;
+    color: #FFFFFF;
+}
+
+.navbar-container{
+    display: flex;
+    height: 16vh;
+    align-items: center;
+    flex-direction: row;
+    color: #000000;
+}
+
+nav img{
+    height: 5vh;
+    width: 7vw;
+    margin: 7px 208px 0px;    
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    height: 12vh;
+    align-items: center;
+    left: 2vw;
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.list-item{
+    font-weight: 600;
+    margin:0 14px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+li::after{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 3vw;
+    top: 8vh;
+    width: 6.8%;
+    height: 2px;
+    background-color: black;
+
+}
+
+.list :hover{
+    text-decoration: underline;
+    font-size: large;
+}
+
+.button-group{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 13vw;
+    cursor: pointer;
+}
+
+.nav-button{
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    width: 9vw;
+    border-radius: 9px;
+    border-color: #060505;
+    padding: 4.5px 0;
+    background-color: whitesmoke;
+}
+
+[aria-label*="banner"]{
+    height: 80vh;
+}
+
+.square{
+    height: 35vh;
+    display: flex;
+    position: relative;
+    top: 54vh;
+    width: 20vw;
+    right: 57vw;
+    justify-content: flex-end;
+}
+
+.square img{
+    width: 29vw;
+    height: 46vh;
+}
+
+[alt*="person-hero-iamge"]{
+    height: 69vh;
+    display: flex;
+    right: 67vw;
+    position: relative;
+    width: 26vw;
+    top: -12.5vw;
+    z-index: 1;
+}    
+
+.star{
+    position:relative;
+    bottom: 12vh;
+    right: -10vw;
+}
+
+.star img{
+    height: 3vw;
+}
+
+.globe{
+    position: relative;
+    display: flex;
+    height: 9vh;
+    bottom: 25vh;
+    right: 24.9vw;
+}
+
+.hero-container-right{
+    position: relative;
+    bottom: 89vh;
+    right: 37vw;
+    height: 31vh;
+    width: 52vw;
+    text-align: center;
+}
+
+.hero-container-right h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 57px;
+    position: relative;
+    top: 20px;
+    color: #000000;
+}
+
+
+.hero-description{
+    padding: 18px 92px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 10;
+    font-size: 14px;
+    position: relative;
+    top: 45px;
+    color: #535353;
+}
+
+.button-email , .button-join{
+    cursor: pointer;
+    margin: 30px 0 0 12px;
+    position: relative;
+    top: 75px;
+}
+
+.button-email{
+    font-family: 'orbitron', sans-serif;
+    padding: 0 29px;
+    height: 37px;
+    width: 218px;
+    border-radius: 7px;
+    border-color: #181818;
+    font-size: 18px;
+}
+
+.button-join{
+    font-family: 'orbitron', sans-serif;
+    background-color: black;
+    color: #FEFEFE;
+    border-radius: 14px;
+    padding: 0 10px;
+    height: 40px;
+    width: 132px;
+    font-size: 18px;
+}
+
+.contact-heading{
+    position: relative;
+    top: 9vw;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    left: 20vw;
+    color: #454545;
+    width: 14vw;
+    /* border: 2px solid red; */
+}
+
+.icons{
+    position: relative;
+    top: 119px;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    left: 1.8vw;
+}
+
+.icons span{
+    padding: 0 5px;
+    display: inline-flex;
+    height: 2.3vw;
+    position: relative;
+    top: 1.9vw;
+    
+}
+
+.star1 img{
+    height: 2.5vw;
+    position: relative;
+    right: 21vw;
+    top: 21vh;
+}
